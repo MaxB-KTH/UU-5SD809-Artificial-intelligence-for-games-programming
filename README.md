@@ -1,9 +1,10 @@
-# UU-5SD809-Artificiell-intelligens-f-r-spelprogrammering-1---7.5
+# UU-5SD809-Artificial-intelligence-for-games-programming
 <table border="1">
   <tr>
     <td>Title</td>
-    <td>Artificiell intelligens för spelprogrammering 1 <br>
-    Artificial intelligence for games programming 1</td>
+    <td>
+      Artificial intelligence for games programming 1
+    </td>
   </tr>
   <tr>
     <td>University</td>
