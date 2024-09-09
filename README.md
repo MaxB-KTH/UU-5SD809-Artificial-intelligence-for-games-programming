@@ -2,7 +2,7 @@
 <table border="1">
   <tr>
     <td>University</td>
-    <td>Uppsala Universitet</td>
+    <td>Uppsala University</td>
   </tr>
   <tr>
     <td>Title</td>
