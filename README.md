@@ -1,13 +1,17 @@
 # UU-5SD809-Artificiell-intelligens-f-r-spelprogrammering-1---7.5
 <table border="1">
   <tr>
+    <td>Title</td>
+    <td>Artificiell intelligens för spelprogrammering 1 <br>
+    Artificial intelligence for games programming 1</td>
+  </tr>
+  <tr>
     <td>University</td>
     <td>Uppsala University</td>
   </tr>
   <tr>
-    <td>Title</td>
-    <td>Artificiell intelligens för spelprogrammering 1 <br>
-    Artificial intelligence for games programming 1</td>
+    <td>Course code</td>
+    <td>5SD809</td>
   </tr>
   <tr>
     <td>Points/credits</td>
@@ -32,7 +36,3 @@
     </td>
   </tr>
 </table>
-
-
-
-Artificiell intelligens för spelprogrammering 1, 7,5hp
