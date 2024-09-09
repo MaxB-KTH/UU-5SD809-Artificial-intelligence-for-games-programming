@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\maxbl\\OneDrive\\Git\\My-mono-repo\\Studies\\UU\\Artificiell intelligens f\u00F6r spelprogrammering 1\\Assignments\\A1\\GameOfLife\\Project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3439E3D-9FAB-4084-B63F-3D0057A4AD33}|Project1\\Project1.vcxproj|C:\\Users\\maxbl\\OneDrive\\Git\\My-mono-repo\\Studies\\UU\\Artificiell intelligens f\u00F6r spelprogrammering 1\\Assignments\\A1\\GameOfLife\\SDL\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cpp",
+              "DocumentMoniker": "C:\\Users\\maxbl\\OneDrive\\Git\\My-mono-repo\\Studies\\UU\\Artificiell intelligens f\u00F6r spelprogrammering 1\\Assignments\\A1\\GameOfLife\\SDL\\Main.cpp",
+              "RelativeDocumentMoniker": "..\\SDL\\Main.cpp",
+              "ToolTip": "C:\\Users\\maxbl\\OneDrive\\Git\\My-mono-repo\\Studies\\UU\\Artificiell intelligens f\u00F6r spelprogrammering 1\\Assignments\\A1\\GameOfLife\\SDL\\Main.cpp",
+              "RelativeToolTip": "..\\SDL\\Main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-07T02:11:07.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

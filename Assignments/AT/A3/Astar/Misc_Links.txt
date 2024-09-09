@@ -1,0 +1,5 @@
+"A-Star_Pathfinding_for_Beginners.pdf"
+Link to original file:
+https://web.archive.org/web/20170731054816/http:/www.policyalmanac.org/games/aStarTutorial.htm
+
+Additional links:http://www.redblobgames.com/pathfinding/a-star/introduction.html http://www.redblobgames.com/pathfinding/a-star/implementation.html
