@@ -152,15 +152,55 @@ void Game::Add_GosperGliderGun(int i, int j){
 //---------------------------------------------------------------------
 //---------------------------------------------------------------------
 
+void Game::UpdateFrontBuffer() {
 
+    bool currentGenerationIndex = 1 - mFrontBufferIdx;
+    bool nextGenerationIndex = mFrontBufferIdx;
 
-//---------------------------------------------------------------------
-//---------------------------------------------------------------------
-void Game::UpdateFrontBuffer(){
-    //For each cell i and j, with
-    //i = 0 ... I-1 and j = 0 ... J-1,
-    //evaluate mM[mFrontBufferIdx][i][j] based on previous grid
-    //mM[1-mFrontBufferIdx][i][j]
+    For (y, GRID_SIZE_Y) For (x, GRID_SIZE_X) {
+        int n = 0; // Neighbor counter.
+
+        // Loop over the vertical neighbors (dy = -1, 0, 1).
+        for (int dy = -1; dy <= 1; dy++) {
+            int ny = y + dy; // Calculate the neighbor's y-coordinate.
+
+            // Apply wrapping for the y-coordinate to handle grid edges (toroidal grid).
+            if (ny < 0)
+                ny = GRID_SIZE_Y - 1; // Wrap around to the bottom row.
+            else if (ny >= GRID_SIZE_Y)
+                ny = 0; // Wrap around to the top row.
+
+            // Loop over the horizontal neighbors (dx = -1, 0, 1).
+            for (int dx = -1; dx <= 1; dx++) {
+                int nx = x + dx; // Calculate the neighbor's x-coordinate.
+
+                // Apply wrapping for the x-coordinate.
+                if (nx < 0)
+                    nx = GRID_SIZE_X - 1; // Wrap around to the rightmost column.
+                else if (nx >= GRID_SIZE_X)
+                    nx = 0; // Wrap around to the leftmost column.
+
+                // Skip counting the current cell as its own neighbor.
+                if (dy == 0 && dx == 0)
+                    continue;
+
+                // If the neighbor cell at (ny, nx) is alive, increment the neighbor count.
+                if (mM[currentGenerationIndex][ny][nx])
+                    n++;
+            }
+        }
+
+        // Retrieve the current state of the cell at (y, x).
+        bool currentState = mM[currentGenerationIndex][y][x];
+
+        // Apply the Game of Life rules to determine the cell's next state.
+        // The cell becomes alive if it has exactly 3 neighbors,
+        // or it stays alive if it has exactly 2 neighbors and is currently alive.
+        // Otherwise, the cell dies or remains dead.
+        mM[nextGenerationIndex][y][x] = (n == 3 || (n == 2 && currentState));
+    }
 }
+
+
 //---------------------------------------------------------------------
 //---------------------------------------------------------------------

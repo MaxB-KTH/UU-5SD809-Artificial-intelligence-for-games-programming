@@ -4,7 +4,8 @@
 //---------------------------------------------------------------------
 //---------------------------------------------------------------------
 #include <thread>
-#include <GLUT/glut.h>//Or just "glut.h"
+#include <GL\glut.h>//Or just "glut.h"
+#include <iostream>
 //---------------------------------------------------------------------
 #define For(i,N)  for (int (i) = 0; (i) < (N); (i)++)
 //---------------------------------------------------------------------
@@ -27,6 +28,8 @@ public:
     int  mW, mH;
     //-------------------------------------------------------
 private:
+    int CountNeighbors(int y, int x);
+    bool NextState(bool currentState, int neighbours);
     void ResetBuffers();
     void Add_Glider(int i, int j);
     void Add_LightweightSpaceship(int i, int j);

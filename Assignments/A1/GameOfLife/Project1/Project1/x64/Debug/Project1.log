@@ -1,9 +1,1 @@
-﻿  Game.cpp
-C:\Users\maxbl\OneDrive\Git\My-mono-repo\Studies\UU\Artificiell intelligens för spelprogrammering 1\Assignments\A1\GameOfLife\SDL\Game.h(6,10): error C1083: Cannot open include file: 'SDL2/SDL.h': No such file or directory
-  (compiling source file '../../SDL/Game.cpp')
-  
-  Main.cpp
-C:\Users\maxbl\OneDrive\Git\My-mono-repo\Studies\UU\Artificiell intelligens för spelprogrammering 1\Assignments\A1\GameOfLife\SDL\Game.h(6,10): error C1083: Cannot open include file: 'SDL2/SDL.h': No such file or directory
-  (compiling source file '../../SDL/Main.cpp')
-  
-  Generating Code...
+﻿
